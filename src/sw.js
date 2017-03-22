@@ -13,5 +13,13 @@ caches.open('bs-v1-core')
 */
 
 self.addEventListener('fetch', event => {
-    //event.respondWith(new Response('hijacked directly!'));
+    event.respondWith(
+        fetch(event.request)
+            .catch(err => fetchOfflinePage())
+    );
 });
+
+function fetchOfflinePage() {
+    return caches.open('bs-v1-core')
+        .then(cache => cache.match('/offline/'));
+}
