@@ -1,1 +1,3 @@
-console.log('Ready to serve');
+self.addEventListener('fetch', event => {
+    event.respondWith(new Response('hijacked'));
+});
