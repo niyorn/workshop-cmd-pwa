@@ -21,5 +21,11 @@
     <script src="/assets/js/docs.min.js"></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
     {% block scripts_extra %}{% endblock %}
+
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+    }
+    </script>
 </body>
 </html>
