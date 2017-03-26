@@ -18,13 +18,14 @@ self.addEventListener('fetch', event => {
         event.respondWith(
             fetch(request)
                 .then(response => cachePage(request, response))
-                .catch(err => fetchCoreFile(request.url))
+                .catch(err => getCachedPage(request))
                 .catch(err => fetchCoreFile('/offline/'))
         );
     } else {
         event.respondWith(
             fetch(request)
                 .catch(err => fetchCoreFile(request.url))
+                .catch(err => fetchCoreFile('/offline/'))
         );
     }
 });
@@ -32,6 +33,12 @@ self.addEventListener('fetch', event => {
 function fetchCoreFile(url) {
     return caches.open('bs-v1-core')
         .then(cache => cache.match(url))
+        .then(response => response ? response : Promise.reject());
+}
+
+function getCachedPage(request) {
+    return caches.open('bs-v1-pages')
+        .then(cache => cache.match(request))
         .then(response => response ? response : Promise.reject());
 }
 
