@@ -18,3 +18,7 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 7
+
+Use the offline when in case of a failed request. For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Cache/match)
