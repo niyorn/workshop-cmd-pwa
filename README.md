@@ -4,7 +4,7 @@ Based on [Workshop Performance Matters](https://github.com/CMDA/performance-matt
 
 ## Project setup
 
-This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages). 
+This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages).
 
 Differences from actual Bootstrap documentation:
 
@@ -21,6 +21,6 @@ Differences from actual Bootstrap documentation:
 
 ## Exercise 2
 
-Create `manifest.json` in the [src](https://github.com/voorhoede/workshop-cmd-pwa/tree/master/src) folder and register it in [src/_base/layout.html](https://github.com/voorhoede/workshop-cmd-pwa/blob/master/src/_base/layout.html).
+Create `sw.js` in the [src](https://github.com/voorhoede/workshop-cmd-pwa/tree/exercise-01-manifest/src) folder and register it in [src/_base/layout.html](https://github.com/voorhoede/workshop-cmd-pwa/blob/master/src/_base/layout.html).
 
-See [MDN](https://developer.mozilla.org/en-US/docs/Web/Manifest) for more info.
+See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register) for more info.
