@@ -4,7 +4,7 @@ Based on [Workshop Performance Matters](https://github.com/CMDA/performance-matt
 
 ## Project setup
 
-This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages). 
+This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages).
 
 Differences from actual Bootstrap documentation:
 
@@ -22,3 +22,5 @@ Differences from actual Bootstrap documentation:
 ## Exercise 3
 
 Hijack fetch events in your [service worker](https://github.com/voorhoede/workshop-cmd-pwa/blob/exercise-02-register-sw/src/sw.js). Return some rubish for each request.
+
+For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent/respondWith).
