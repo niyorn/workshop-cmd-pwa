@@ -18,3 +18,7 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 5
+
+Create an offline page.
