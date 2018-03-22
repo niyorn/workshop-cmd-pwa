@@ -18,3 +18,9 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 6
+
+Cache the offline page you've just created when the service workers has installed.
+
+For more info, check [Google developer](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker).
