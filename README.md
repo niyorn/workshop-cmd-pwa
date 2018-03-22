@@ -22,3 +22,5 @@ Differences from actual Bootstrap documentation:
 ## Exercise 10
 
 Cache requested pages. Use the [mode](https://developer.mozilla.org/en-US/docs/Web/API/Request/mode) property of the request to check whether a page or an asset is requested.
+
+Remember to clone the request before caching it, since you can use the body of a response just once. For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Response/clone)
