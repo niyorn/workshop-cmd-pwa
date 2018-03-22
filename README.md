@@ -18,3 +18,7 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 9
+
+Use the cached assets as fallback for when we're unable to fetch them. For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Cache/match).
