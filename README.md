@@ -18,3 +18,9 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 2
+
+Create `manifest.json` in the [src](https://github.com/voorhoede/workshop-cmd-pwa/tree/master/src) folder and register it in [src/_base/layout.html](https://github.com/voorhoede/workshop-cmd-pwa/blob/master/src/_base/layout.html).
+
+See [MDN](https://developer.mozilla.org/en-US/docs/Web/Manifest) for more info.
