@@ -21,4 +21,4 @@ Differences from actual Bootstrap documentation:
 
 ## Exercise 7
 
-Use the offline pagge in case of a failed request. For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Cache/match)
+Return the offline page when fetching a request fails. For more info, check [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Cache/match)
