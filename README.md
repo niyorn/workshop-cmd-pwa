@@ -4,7 +4,7 @@ Based on [Workshop Performance Matters](https://github.com/CMDA/performance-matt
 
 ## Project setup
 
-This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages). 
+This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages).
 
 Differences from actual Bootstrap documentation:
 
@@ -18,3 +18,7 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+## Exercise 10
+
+Cache requested pages. Use the [mode](https://developer.mozilla.org/en-US/docs/Web/API/Request/mode) property of the request to check whether a page or an asset is requested.
